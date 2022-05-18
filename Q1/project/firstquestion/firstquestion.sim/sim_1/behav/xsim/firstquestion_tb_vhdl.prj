@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Downloads/firstquestion.vhd" \
+"../../../../../Downloads/firstquestion_tb.vhd" \
+
+# Do not sort compile order
+nosort
